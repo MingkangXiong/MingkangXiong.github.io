@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Blog - technology and science at TheReviewIndex</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2017-11-25T21:37:39-03:00</updated>
+ <author>
+   <name>The Review Index</name>
+   <uri>https://thereviewindex.com</uri>
+   <email>root@thereviewindex.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>Let's science the shit out of Toilet Paper Reviews</title>
+   <link href="http://localhost:4000/science-toilet-paper-reviews"/>
+   <id>http://localhost:4000/science-toilet-paper-reviews</id>
+   <updated>2017-11-23T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;Bunch of text. Test text. Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch of text. Test text.Bunch...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Frequently Asked Questions - TheReviewIndex</title>
+   <link href="http://localhost:4000/frequently-asked-questions"/>
+   <id>http://localhost:4000/frequently-asked-questions</id>
+   <updated>2017-02-22T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;What is TheReviewIndex all about?&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;TheReviewIndex is an independent site that aspires to simplify online shopping, by organizing and summarizing user reviews from various online sources. All user reviews, from across sources, are summarized and presented as an unbiased, feature-wise summary to make reading reviews more efficient. Not just...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Hello World - TheReviewIndex</title>
+   <link href="http://localhost:4000/hello-world"/>
+   <id>http://localhost:4000/hello-world</id>
+   <updated>2017-02-21T00:00:00-03:00</updated>
+   <content type="html">&lt;p&gt;Hi there. We are TheReviewIndex.com - here to help you discover the right gadgets for your very individual needs.&lt;/p&gt; &lt;p&gt;As you know, the internet is a source of humongous amounts of unstructured information, in the form of blogs, videos, user and expert reviews, etc, for all sorts of gadgets. It...</content>
+ </entry>
+
+ 
+
+</feed>
