@@ -3,8 +3,8 @@ default:
   paths:
     base: /
     home: /
-    # all:  /all.html
-    # rss:  /feed.xml
+    all:  /all.html
+    rss:  /feed.xml
   lang: zh
   sources: bootcss
   toc:
