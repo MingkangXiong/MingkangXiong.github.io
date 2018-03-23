@@ -9,7 +9,3 @@ key: page-about
 ---
 
 Welcome to my blog! 
-
-## Skills
-
-- C, C++, Python
