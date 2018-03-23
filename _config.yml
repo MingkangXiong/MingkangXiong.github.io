@@ -13,7 +13,7 @@
 
 text_color_theme: default #eg: default | dark | forest | ocean | chocolate | orange
 ## Base settings ##
-# url:  #the base hostname & protocol for your site e.g. https://www.someone.com
+url: https://mingkangxiong.github.io/ #the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: /
 title: mkxiong's blog
 description: > #this means to ignore newlines until "nav_lists:"
@@ -27,9 +27,9 @@ nav_lists:
       zh-Hant: 關於
     url: /about.html
 
-# paths:
-#   base: /
-#   home: /
+paths:
+  base: /
+  home: /
 #   all:  /all.html
 #   rss:  /feed.xml
 
@@ -44,10 +44,10 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 ## Author & social ##
 author:
   name: mkxiong
-  # email:  mkxiong@sjtu.edu.cn #your Email address e.g. someone@site.com
+  email:  mkxiong@sjtu.edu.cn #your Email address e.g. someone@site.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
-  # github:  MingkangXiong #your GitHub username
+  github:  MingkangXiong #your GitHub username
   # googleplus:  #your Google+ username
   # weibo:  #your Weibo username
   # douban:  #your Douban username
