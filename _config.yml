@@ -31,7 +31,7 @@ paths:
   base: /
   home: /
   all:  /all.html
-#   rss:  /feed.xml
+  rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
 repository: MingkangXiong/MingkangXiong.github.io #e.g. someone/someone.github.io

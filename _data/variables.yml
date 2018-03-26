@@ -4,7 +4,7 @@ default:
     base: /
     home: /
     all:  /all.html
-#    rss:  /feed.xml
+    rss:  /feed.xml
   lang: zh
   sources: bootcss
   toc:
