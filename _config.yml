@@ -78,7 +78,7 @@ gitalk:
 leancloud:
   app_id: su6SlnD3GX4eOTrka36MlPFY-gzGzoHsz  #LeanCloud App id
   app_key: zLck1zUKOcH3IskSNVD5sB3f #LeanCloud App key
-  app_class: Counter_num #LeanCloud App class
+  app_class: Counter #LeanCloud App class
 
 mathjax: true
 mathjax_autoNumber: true
