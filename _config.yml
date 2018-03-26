@@ -30,12 +30,12 @@ nav_lists:
 paths:
   base: /
   home: /
-#   all:  /all.html
+  all:  /all.html
 #   rss:  /feed.xml
 
 ## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
+repository: MingkangXiong/MingkangXiong.github.io #e.g. someone/someone.github.io
+repository_tree: master #e.g. master
 
 ## Language & timezone ##
 lang: zh #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
