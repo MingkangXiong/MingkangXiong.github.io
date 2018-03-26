@@ -80,10 +80,10 @@ leancloud:
   app_key: zLck1zUKOcH3IskSNVD5sB3f #LeanCloud App key
   app_class: Counter_num #LeanCloud App class
 
-# mathjax: true
-# mathjax_autoNumber: true
-# mermaid: true
-# chart: true
+mathjax: true
+mathjax_autoNumber: true
+mermaid: true
+chart: true
 
 ## Paginate ##
 paginate: 7
