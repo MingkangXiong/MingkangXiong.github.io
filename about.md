@@ -1,7 +1,6 @@
 ---
-layout: page
-titles:
-  en: About me
+layout: post
+titles: About me
 ---
 
 # Education
