@@ -1,6 +1,6 @@
 ---
-layout: post
-titles: About me
+layout: page
+title: About me
 ---
 
 # Education
