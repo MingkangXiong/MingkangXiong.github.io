@@ -1,9 +1,9 @@
 NAV:
   HOME:
-    en:      "Home"
-    zh:      "主页"
-    zh-Hans: "主页"
-    zh-Hant: "主頁"
+    en:      "Blogs"
+    zh:      "博客"
+    zh-Hans: "博客"
+    zh-Hant: "博客"
   ALL:
     en:      "Archive"
     zh:      "归档"
