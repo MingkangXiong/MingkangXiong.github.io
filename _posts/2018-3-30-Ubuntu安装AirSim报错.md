@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Ubuntu安装AirSim报错
+title: Ubuntu安装AirSim报错“ERROR: clang++ and libc++ is necessary to compile AirSim and run it in Unreal engine”
 key: 20180330
 tags: AirSim
+  ubuntu
 ---
+
+
 解决方法：
 
 将AirSim文件夹下的./setup.sh中第40行的
