@@ -6,7 +6,6 @@ tags: AirSim
   ubuntu
 ---
 
-
 解决方法：
 
 将AirSim文件夹下的./setup.sh中第40行的
