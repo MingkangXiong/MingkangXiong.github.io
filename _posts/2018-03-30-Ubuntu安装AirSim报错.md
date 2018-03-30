@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu安装AirSim报错ERROR: clang++ and libc++ is necessary to compile AirSim
+title: Ubuntu安装AirSim报错
 key: 20180330
 tags: AirSim
 ---
