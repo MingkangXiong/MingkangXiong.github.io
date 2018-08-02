@@ -53,7 +53,7 @@ catkin_make
 如果出现类似于/usr/bin/ld: cannot find -l***的错误，可以参考[链接](https://blog.csdn.net/yingyujianmo/article/details/49634511)
 
 # Launch the nodes
-新开一个终端
+确保电脑连接了ardrone的wifi，新开一个终端
 ```bash
 cd tum_ardrone_ws
 source devel/setup.bash
