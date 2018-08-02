@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu 14.04下安装ardrone的 tum_ardrone包
+title: Ubuntu 14.04下安装ardrone的tum_ardrone包
 key: 20180802
 tags: ROS
   ubuntu
