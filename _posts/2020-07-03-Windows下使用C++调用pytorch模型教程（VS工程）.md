@@ -3,8 +3,8 @@ layout: post
 title: Windows下使用C++调用pytorch模型教程（VS工程）
 key: 20200703
 tags: pytorch
-windows
-vs
+  windows
+  vs
 ---
 
 # Windows下使用C++调用pytorch模型教程（VS工程）
