@@ -51,6 +51,7 @@ https://download.pytorch.org/libtorch/cu100/libtorch-win-shared-with-deps-1.0.1.
 1. 新建一个项目工程，打开VS的“项目->属性”，在C/C++一栏的“附加包含目录”中添加libtorch的头文件路径
 ```
 你自己的路径\libtorch-win-shared-with-deps-1.0.1\libtorch\include
+你自己的路径\libtorch-win-shared-with-deps-1.0.1\libtorch\include\torch\csrc\api\include
 ```
 2. 在“链接器->常规->附加库目录”中添加libtorch的静态库路径
 ```
