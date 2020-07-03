@@ -81,7 +81,7 @@ torch.lib
 ```
 至此，环境配置结束，示例代码如下
 
-```cpp
+```
 #include <torch/script.h>
 #include <iostream>
 
@@ -107,4 +107,5 @@ int main(void)
 
 本文参看了以下链接：
 [https://zhuanlan.zhihu.com/p/52806730](https://zhuanlan.zhihu.com/p/52806730)
+
 [https://blog.csdn.net/qq_37569355/article/details/104246813](https://blog.csdn.net/qq_37569355/article/details/104246813)
