@@ -81,7 +81,7 @@ torch.lib
 ```
 至此，环境配置结束，示例代码如下
 
-```
+```cpp
 #include <torch/script.h>
 #include <iostream>
 
