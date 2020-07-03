@@ -7,8 +7,6 @@ tags: pytorch
   vs
 ---
 
-# Windows下使用C++调用pytorch模型教程（VS工程）
-
 如果读者有在VS下配置opencv工程的经历，那么在本教程的指导下配置起来将非常轻松。大致可以分为三步：
 1. 生成Torch Script
 2. 下载libtorch
