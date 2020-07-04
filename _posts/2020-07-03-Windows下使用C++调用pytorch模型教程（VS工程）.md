@@ -105,6 +105,11 @@ int main(void)
 	return 0;
 }
 ```
+若遇到错误
+```
+error C4996: 'getenv': This function or variable may be unsafe.
+```
+在项目->属性->C/C++->预处理器->预处理器定中添加 _CRT_SECURE_NO_WARNINGS 这个预定义。
 
 本文参看了以下链接：
 [https://zhuanlan.zhihu.com/p/52806730](https://zhuanlan.zhihu.com/p/52806730)
