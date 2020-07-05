@@ -40,7 +40,7 @@ traced_script_module.save("model-cpu.pt")
 注意该脚本的目录下要放入自己网络结构的代码。
 
 ## 下载libtorch
-想要下载对应版本的libtorch可以参看[该文章](https://blog.csdn.net/qq_37569355/article/details/104246813)。Windows用以下链接。
+想要下载对应版本的libtorch可以参看[该文章](https://blog.csdn.net/qq_37569355/article/details/104246813)，Windows可用以下链接。下载gpu版本不需要再下载cpu版本压缩包，gpu版本包含了cpu版本运行所需的库。
 ```
 https://download.pytorch.org/libtorch/cpu/libtorch-win-shared-with-deps-1.0.1.zip
 https://download.pytorch.org/libtorch/cu80/libtorch-win-shared-with-deps-1.0.1.zip
