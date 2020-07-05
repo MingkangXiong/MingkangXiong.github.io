@@ -1,0 +1,81 @@
+---
+layout: post
+title: 国内下载国外数据集（库）方案整理
+key: 20200705
+tags: 数据集
+  linux
+---
+在科研过程中常常需要下载国外数据集，但鉴于国内网络环境往往无法访问。本文总结了一些下载方案，所介绍的方案适用于合法访问国际互联网情形，或特殊渠道流量不够的情况。
+
+## 方案一
+可以试试直接用迅雷能否下载，试试百度云盘的离线下载能否成功.
+
+## 方案二
+在谷歌colaboratory上将文件下载至谷歌云盘,再使用multcloud关联谷歌云盘,可以实现关闭特殊渠道方式下载.(multcloud网络不稳定)
+
+## 方案三(推荐)
+在阿里云上申请一个入门级的境外服务器(存储空间够即可，无带宽要求；若想使用图形界面需满足1个CPU（2.5GHz），1G内存；仅用命令行则选用最低配置即可。可以选择只购买一周。),或者用谷歌colaboratory（传大文件不稳定），先下载，再用命令行上传至百度云盘,参考
+[https://www.jianshu.com/p/11f071e1f7fe](https://www.jianshu.com/p/11f071e1f7fe)
+
+[https://www.cnblogs.com/liwei0526vip/p/5002434.html](https://www.cnblogs.com/liwei0526vip/p/5002434.html)
+
+[https://github.com/houtianze/bypy](https://github.com/houtianze/bypy)
+
+[https://github.com/houtianze/bypy/issues/413](https://github.com/houtianze/bypy/issues/413)
+安装上传至百度云盘所需要的库
+```bash
+sudo pip install bypy
+bypy info
+bypy upload filename -v
+```
+如果遇到以下问题
+```bash
+<W> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<W> WARNING: Can't detect the system encoding, assume it's 'UTF-8'.
+Files with non-ASCII names may not be handled correctly.
+<W> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<W> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<W> Encoding for StdOut: ANSI_X3.4-1968
+<W> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+```
+命令行输入
+```bash
+locale-gen en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+```
+可以考虑安装图像界面（游客模式数据会在登出后删除，运行卡顿。能流畅运行的配置方案：1个CPU（2.5GHz），1G内存）
+```bash
+apt-get update
+apt-get install ubuntu-desktop
+reboot
+```
+该方案操作简单，上传速度快。
+
+## 方案四
+在阿里云上申请一个入门级的境外服务器(存储空间够即可),挂载一个支持webdav的网盘(国内如坚果云),在服务器上挂载该网盘,可将文件下载至挂载路径下.（下载命令要加上sudo）（大文件该法有问题，小文件可以尝试）
+
+挂载方法如下:
+
+先安装davfs2:
+```bash
+apt-get update
+apt-get install davfs2
+```
+创建文件夹,并挂载网盘
+```bash
+mkdir /mnt/webdav
+mount -t davfs https://uno.teracloud.jp/dav/ /mnt/webdav
+```
+输入完用户名和密码,修改文件夹权限
+```bash
+chmod 777 /mnt/webdav -R
+```
+出现如下错误不用在意
+```bash
+chmod: changing permissions of '/mnt/webdav/lost+found': Invalid argument
+```
+
+## 方案五
+去某宝找代下载
