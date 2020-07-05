@@ -21,18 +21,21 @@ import torchvision
 model = torch.load('模型路径')
 
 model.cuda()
-# model.cpu()
+
 
 # An example input you would normally provide to your model's forward() method.
 
 example = torch.rand(1, 3, 224, 224).cuda()
-# example = torch.rand(1, 3, 224, 224)
 
 # Use torch.jit.trace to generate a torch.jit.ScriptModule via tracing.
 
 traced_script_module = torch.jit.trace(model, example)
 traced_script_module.save('model-gpu.pt')
-# traced_script_module.save("model-cpu.pt")
+
+model.cpu()
+example = torch.rand(1, 3, 224, 224)
+traced_script_module = torch.jit.trace(model, example)
+traced_script_module.save("model-cpu.pt")
 ```
 注意该脚本的目录下要放入自己网络结构的代码。
 
