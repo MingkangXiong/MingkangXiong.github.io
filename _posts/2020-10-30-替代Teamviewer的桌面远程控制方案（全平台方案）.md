@@ -7,7 +7,7 @@ tags: 远程控制
 ---
 
 # 方案一
-使用[RealVNC](https://www.realvnc.com/en/)或者[AnyDesk](https://anydesk.com/zhs)，速度都还不错，值得一试。笔者试过[向日葵](https://sunlogin.oray.com/)的Ubuntu客户端，该客户端存在bug。近期国内推出的[ToDesk](https://www.todesk.com/)可以试试。
+使用[RealVNC](https://www.realvnc.com/en/)（免费版不支持文件传输）或者[AnyDesk](https://anydesk.com/zhs)，速度都还不错，值得一试。笔者试过[向日葵](https://sunlogin.oray.com/)的Ubuntu客户端，该客户端存在bug。近期国内推出的[ToDesk](https://www.todesk.com/)可以试试。
 
 # 方案二（NoMachine+ZeroTier）
 该方案能够实现高清快速的远程控制。
