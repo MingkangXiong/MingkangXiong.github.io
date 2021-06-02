@@ -13,7 +13,7 @@
       query.equalTo('key', curId.substr(9));
       query.first().then(function(result) {
         if (result) {
-          $('#' + curId).text(result.attributes.views);
+          <!-- $('#' + curId).text(result.attributes.views); -->  
         }
       }, function(error) {
         if (error) {
