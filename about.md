@@ -1,17 +1,27 @@
 ---
 layout: page
-title: About me
+title: 关于我
 ---
 
-## Education
+## 经历
 
-### Shanghai Jiao Tong University(2017-)
+### 上海交通大学(2017-至今)
 
-Ph.D Student of Control Science and Engineering, School of Electronic Information and Electrical Engineering
+电子信息与电气工程学院自动化系控制科学与工程专业 Ph.D candidate 
 
-### Huazhong University of Science and Technology(2013-2017)
+2020年上海交通大学华为奖学金
 
-Bachelor of Measurement and control technology and instrument, School of Mechanical Science & Engineering
+### 华中科技大学(2013-2017)
+
+机械科学与工程学院测控技术与仪器专业 Bachelor
+
+2017年华中科技大学优秀毕业生
+
+2016年第十一届全国大学生“恩智浦”杯智能汽车竞赛华南赛区一等奖
+
+2015年第十届全国大学生“飞思卡尔”杯智能汽车竞赛华南赛区一等奖
+
+2013-2014年度国家励志奖学金
 
 ## Contact
 
