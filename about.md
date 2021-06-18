@@ -51,7 +51,7 @@ title: 关于我
 
 - 机器人操作系统：ROS
 
-- 论文写作：LaTex
+- 论文写作：LaTeX
 
 ## Contact
 
